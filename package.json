@@ -1,0 +1,27 @@
+{
+  "name": "val-api",
+  "version": "0.0.1",
+  "description": "Unofficial NodeJS Valorant API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzZed/val-api.git"
+  },
+  "keywords": [
+    "Valorant",
+    "API",
+    "MMR"
+  ],
+  "author": "ItzZed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItzZed/val-api/issues"
+  },
+  "homepage": "https://github.com/ItzZed/val-api#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
