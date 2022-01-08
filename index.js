@@ -33,12 +33,20 @@ const vapi = new API(apikey);
 
 try {
 
-
-    vapi.getValContent();
+    // vapi.getValStatus();
+    // vapi.getValRanked('a16955a5-4ad0-f761-5e9e-389df1c892fb');
 
 }
 catch(err) {
 
+    console.log("I AAM HERE")
+    if(err.status === 403)  {
+
+        console.log("ASHAFJASHFAJF");
+        alert("ERROR 403");
+        alert("API key most likely incorrect");
+
+    }
     console.log(err)
 
 }

@@ -1,4 +1,4 @@
-# UNDER DEVELOPMENT DO NOT USE!
+# IN VERY EARLY DEVELOPMENT DO NOT USE!
 
 # val-api
 Unofficial Valorant API
