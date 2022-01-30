@@ -1,0 +1,1 @@
+export * from "./VAL-CONTENT-V1";
